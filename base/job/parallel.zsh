@@ -99,7 +99,6 @@ __zplug::job::parallel::init()
     tput civis
 
     __zplug::io::print::f \
-        --zplug \
         "Start to %s %d plugin${is_parallel:+"s"} %s\n\n" \
         "$starting_message" \
         $#repos \
